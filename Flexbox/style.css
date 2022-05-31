@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    flex-direction: row;
+}
+
+header {
+    width: 80%;
+    padding: 5%;
+    background-color: lightblue;
+    display: flex;
+}
+
+header div {
+    flex: 1 1 0%;
+}
+main {
+    width: auto;
+    background-color: lightgreen;
+}
+
+.mainnews {
+    width: 60%;
+    height: 480px;
+    background-color: lightgreen;
+}
+
+footer {   
+}
