@@ -38,6 +38,7 @@ header {
 
 .navbar li a:hover {
     color:red;
+    transition: 1s;
 }
 
 .navbar li span {
